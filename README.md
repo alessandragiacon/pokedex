@@ -1,4 +1,4 @@
-#Desafio da pokedex
+# Desafio da pokedex
 ---
 Criar uma pokedex que se conecta a pokeAPI e traz as informações de nome, id e imagem dos pokemons para lista-los em uma página utilizando apenas HTML, CSS e Javascript.
 
