@@ -10,12 +10,16 @@ A ideia do projeto é fazer uma pokedex que liste os Pokémons apenas usando HTM
   - ID;
   - Se conseguir colocar mais dados melhor;
   
+<p align="right" >(<a href="#pokedex">↑ topo</a>)</p>
+
 **Exemplos de layout:** <br/>
 [Exemplo 01](https://renedellefont.com/images/writing/svelte-pokedex-header.png)<br/>
 [Exemplo 02](https://codesandbox.io/api/v1/sandboxes/o9jj6/screenshot.png)
 
 ## Segunda etapa:
 Ao clicar no card do Pokemon deve abrir um modal/popup que mostre os detalhes do Pokemon: imagem, nome, nome dos elementos, nome das habilidades, e todos os outros dados que vc achar melhor.
+
+<p align="right" >(<a href="#pokedex">↑ topo</a>)</p>
 
 ## Bônus:
 
@@ -30,3 +34,5 @@ Ao clicar no card do Pokemon deve abrir um modal/popup que mostre os detalhes do
 - Publicar o projeto no Vercel;
 - Versionar o projeto;
 - Adicionar Animaçoes com transition, hover, keyframes.
+
+<p align="right" >(<a href="#pokedex">↑ topo</a>)</p>
