@@ -1,0 +1,68 @@
+@charset "UTF-8";
+/*
+* Author: Alessandra Giacon
+* Description: Pokédex style
+* Version: 1.0.0
+*/
+/* Fonts variables and customizations */
+@import "http://fonts.googleapis.com/css?family=Istok+Web";
+body {
+  font-family: Istok Web;
+}
+
+/* Variables */
+/* Layout base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #D9D9D9;
+  color: #726B8F;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 0 auto;
+  display: block;
+  font-size: 1em;
+  scroll-behavior: smooth;
+  font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #726B8F;
+  font-weight: bold;
+  padding: 30px 0 12px;
+  line-height: 32px;
+}
+
+h1 {
+  font-size: 2.13;
+}
+
+h2 {
+  font-size: 1.6;
+}
+
+h3 {
+  font-size: 1.33;
+}
+
+h4 {
+  font-size: 1.2;
+}
+
+p {
+  font-style: normal;
+}
+
+/* Variables */
+
+/*# sourceMappingURL=style.css.map */
