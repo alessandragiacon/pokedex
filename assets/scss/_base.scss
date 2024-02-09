@@ -19,6 +19,7 @@ body {
     font-size: 1em;
     scroll-behavior: smooth;
     font-style: normal;
+    font-family: $font;
 }
 
 h1,
@@ -51,4 +52,47 @@ h4 {
 
 p {
     font-style: normal;
+}
+
+a {
+    &:link,
+    &:visited {
+        font-color: $second-color;
+        text-decoration: none;
+    }
+
+    &:active,
+    &:hover {
+        font-color: $first-color;
+        text-decoration: underline;
+    }
+}
+
+header {
+    display: flex;
+    height: 80px;
+    background-color: $first-color;
+
+    div {
+        width: $breakpoint-laptop;
+
+        .logo {
+            margin: 10px;
+        }
+    }
+}
+
+footer {
+    position: fixed;
+    display: flex;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    justify-content: center;
+    align-items: center;
+
+    div {
+        text-align: center;
+        width: $breakpoint-laptop;
+    }
 }
